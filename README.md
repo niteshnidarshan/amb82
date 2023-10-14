@@ -2,7 +2,9 @@
 Arduino
 
 step1: connect amb82-mini with CH34C port on laptop
+
 step2: open Arduino IDE 2.2.1
+
 step3: go to prefrence and add below library:
 
   https://github.com/ambiot/ambpro2_arduino/raw/main/Arduino_package/package_realtek.com_amebapro2_index.json
