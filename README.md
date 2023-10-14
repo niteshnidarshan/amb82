@@ -15,7 +15,7 @@ step4: press ok then go to board manager and search for ameba/ amb
     step 4.1: uninstall Arduino IDE 2.2.1 and install Arduino IDE 1.8.19
     step 4.2: follow step3 and step4
     step 4.3: once found Realtek AMB 82- mini board - select and install
-    step 4.4: after installing board, you can continue with this IDE or you can uninstall this IDE and install Arduino IDE 2.2.1 - now it will search the borad.
+    step 4.4: after installing board, you can continue with this IDE or you can install Arduino IDE 2.2.1 - now it will search the borad.
 
 step5: select appropriate board then select port
   
