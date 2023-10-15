@@ -25,12 +25,15 @@ step5: select appropriate board then select port
   
   While compile/ upload code to AMB82, if console return some error like: 
     
-    **arduino ide compilation error ino_validation_macos: permission denied**
+  **arduino ide compilation error ino_validation_macos: permission denied**
 
   Follow below steps to resolve this error:
+  
     Step5.1: Go to Board Manager and search for the board- Ameba/ amb
+    
     Step5.2: Change the installed version to 4.0.4-1
 
+    
     This version will allow you to compile and upload your code to AMB82 board.
 
     
