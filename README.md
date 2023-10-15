@@ -9,6 +9,19 @@ step3: go to prefrence and add below library:
 
   https://github.com/ambiot/ambpro2_arduino/raw/main/Arduino_package/package_realtek.com_amebapro2_index.json
 
+  **Error scenario during library update**
+
+  If you get time out error during this json library update, it may because of below issue:
+
+  Sometime internet service provider configures your wifi with thier default DNS address which restricts some of the sites. Due to this Arduino IDE tries to update this library but it is blocked. To resolve this issue do the below steps:
+
+  step3.1: Go to Wifi prefrence and click on 'i' or details/ configuration of wifi.
+  
+  step3.2: update DNS address IPv4 with 1.1.1.1 and save then restart laptop.
+
+  It will resolve the timeout error and the json library will be updated.
+  
+
 step4: press ok then go to board manager and search for ameba/ amb 
   If it is not showing any boards in the list then follow below steps
 
